@@ -1,16 +1,16 @@
-### BUG: Некоректна робота пошуку при введенні більше одного символу
+BUG: Incorrect Search Behavior When Entering More Than One Character
 
-**Steps to Reproduce:**
+Steps to Reproduce:
 
-1. Відкрити сторінку Events
-2. Ввести в поле пошуку більше одного символу (наприклад: "som")
+Open the Events page
+Enter more than one character in the search field (e.g., "som")
 
-**Actual Result:**
-Відображається повідомлення:
-"Ми не знайшли жодних результатів..."
+Actual Result:
+The message is displayed:
+"We did not find any results matching this query..."
 
-**Expected Result:**
-Відображаються релевантні події, що відповідають запиту
+Expected Result:
+Relevant events matching the search query are displayed
 
-**Severity:** Medium
-**Priority:** High
+Severity: Medium
+Priority: High

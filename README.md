@@ -1,10 +1,10 @@
 # GreenCity Tests
 
-## Опис
-Цей репозиторій містить тест-кейси для перевірки функціоналу сторінки подій (Events) у застосунку GreenCity.
+## Description
+This repository contains test cases for verifying the functionality of the Events page in the GreenCity application.
 
-**Сторінка для тестування**
+**Page under test**
 https://www.greencity.cx.ua/#/greenCity/events
 
-**Автор**
+**Author**
 Volodimir Yeremitsa

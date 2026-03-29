@@ -2,69 +2,69 @@
 
 ---
 
-## TC-01: Перевірка відображення сторінки Events
+## TC-01: Verify Events Page Display
 
 **Preconditions:**
 
-* Користувач має доступ до інтернету
-* Браузер відкритий
+* The user has internet access
+* A web browser is open
 
 ### Test Steps
 
-| Step | Action                     | Data                                 | Expected Result             |
-| ---- | -------------------------- | ------------------------------------ | --------------------------- |
-| 1    | Відкрити браузер           | —                                    | Браузер відкрито            |
-| 2    | Перейти за посиланням      | https://www.greencity.cx.ua/#/events | Сторінка Events відкрилась  |
-| 3    | Перевірити наявність подій | —                                    | Відображається список подій |
+| Step | Action                   | Data                                 | Expected Result                 |
+| ---- | ------------------------ | ------------------------------------ | ------------------------------- |
+| 1    | Open the browser         | —                                    | The browser is opened           |
+| 2    | Navigate to the link     | https://www.greencity.cx.ua/#/events | The Events page is opened       |
+| 3    | Check the list of events | —                                    | The list of events is displayed |
 
 ---
 
-## TC-02: Перевірка переходу на деталі події
+## TC-02: Verify Navigation to Event Details
 
 **Preconditions:**
 
-* Користувач знаходиться на сторінці Events
-* Є хоча б одна подія у списку
+* The user is on the Events page
+* At least one event is available in the list
 
 ### Test Steps
 
-| Step | Action                      | Data        | Expected Result                     |
-| ---- | --------------------------- | ----------- | ----------------------------------- |
-| 1    | Відкрити сторінку Events    | URL Events  | Список подій відображається         |
-| 2    | Натиснути Більше на будь-якій події | Перша подія | Відкривається сторінка події        |
-| 3    | Перевірити деталі події     | —           | Відображається інформація про подію |
+| Step | Action                    | Data        | Expected Result                  |
+| ---- | ------------------------- | ----------- | -------------------------------- |
+| 1    | Open the Events page      | URL Events  | The list of events is displayed  |
+| 2    | Click "More" on any event | First event | The event details page is opened |
+| 3    | Check event details       | —           | Event information is displayed   |
 
 ---
 
-## TC-03: Перевірка пошуку подій
+## TC-03: Verify Event Search Functionality
 
 **Preconditions:**
 
-* Користувач знаходиться на сторінці Events
+* The user is on the Events page
 
 ### Test Steps
 
-| Step | Action                     | Data       | Expected Result                    |
-| ---- | -------------------------- | ---------- | ---------------------------------- |
-| 1    | Відкрити сторінку Events   | URL Events | Сторінка відображається            |
-| 2    | Ввести текст у поле пошуку | s        | Відображаються релевантні події    |
-| 3    | Очистити поле пошуку       | —          | Відображається повний список подій |
+| Step | Action                         | Data       | Expected Result                      |
+| ---- | ------------------------------ | ---------- | ------------------------------------ |
+| 1    | Open the Events page           | URL Events | The page is displayed                |
+| 2    | Enter text in the search field | s          | Relevant events are displayed        |
+| 3    | Clear the search field         | —          | The full list of events is displayed |
 
 ---
 
-## 🧪 TC-04: Перевірка пошуку при введенні більше одного символу
+## TC-04: Verify Search with More Than One Character
 
 **Preconditions:**
 
-* Користувач знаходиться на сторінці Events
-* На сторінці є події, які відповідають пошуковому запиту
+* The user is on the Events page
+* There are events matching the search query
 
 ### Test Steps
 
-| Step | Action                       | Data       | Expected Result                 |
-| ---- | ---------------------------- | ---------- | ------------------------------- |
-| 1    | Відкрити сторінку Events     | URL Events | Сторінка відображається         |
-| 2    | Ввести один символ у пошук   | s          | Відображаються релевантні події |
-| 3    | Ввести більше одного символу | som        | Відображаються релевантні події |
+| Step | Action                        | Data       | Expected Result               |
+| ---- | ----------------------------- | ---------- | ----------------------------- |
+| 1    | Open the Events page          | URL Events | The page is displayed         |
+| 2    | Enter one character in search | s          | Relevant events are displayed |
+| 3    | Enter more than one character | som        | Relevant events are displayed |
 
 ---
